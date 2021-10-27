@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: pod1
+specs: 
+  containers: 
+  - name: nginx-arjun
+    image: nginx
+    ports: 
+    - containerPort: 8080
