@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod1
-specs: 
-  containers: 
+spec:
+  containers:
   - name: nginx-nishit
     image: nginx
-    ports: 
+    ports:
     - containerPort: 8080
