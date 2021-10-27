@@ -4,7 +4,7 @@ metadata:
   name: pod1
 specs: 
   containers: 
-  - name: nginx-arjun
+  - name: nginx-nishit
     image: nginx
     ports: 
     - containerPort: 8080
