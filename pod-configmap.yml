@@ -9,7 +9,7 @@ spec:
     command: ["sleep","3600"]
     env:
     - name: player_initial_lives
-    valueForm:
+    valueFrom:
       configMapKeyRef:
         name: game-demo
         key: player_initial_lives
